@@ -12,7 +12,7 @@ public class Main {
 //        ArrayList<Integer> list = new ArrayList<>(23);
 //        list.DEFAULT_CAPACITY;
 
-        obj.getNum();
-        int n = obj.num;
+        obj.getNum();// this is getter
+        int n = obj.num;//we can access num here
     }
 }

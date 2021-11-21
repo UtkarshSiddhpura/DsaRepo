@@ -1,7 +1,9 @@
 package com.kunal.exceptionHandling;
+import static com.kunal.access.A.getNum;
 
 public class Main {
     public static void main(String[] args) {
+      
         int a = 5;
         int b = 0;
         try {

@@ -1,11 +1,11 @@
 package com.kunal.packages.b;
 
 public class Message {
-    public static void main(String[] args) {
+       public static void message1(){
+            System.out.println("I am void");
+        }
 
-    }
-
-    public static void message() {
-        System.out.println("This course is awesome");
+        protected void message() {
+            System.out.println("This course is awesome");
     }
 }

@@ -1,7 +1,7 @@
 package com.kunal.access;
 
 public class A {
-    protected int num;
+    public int num;
     String name;
     int[] arr;
 
@@ -19,3 +19,4 @@ public class A {
         this.arr = new int[num];
     }
 }
+
