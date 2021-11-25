@@ -26,6 +26,7 @@
 - [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
 - [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 - [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)
+- [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
 ## Medium 
 - [Jump Game VII](https://leetcode.com/problems/jump-game-vii/)
@@ -47,6 +48,7 @@
 - [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)
 - [Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)
 - [Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)
+- [Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
 
 ## Hard 
