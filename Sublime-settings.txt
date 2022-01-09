@@ -1,0 +1,85 @@
+//key bindings
+[
+	 {
+       "keys": ["alt+t"],
+       "command": "terminus_open",
+       "args" : {
+           "cmd": "cmd.exe",
+           "cwd": "${file_path:${folder}}",
+           "panel_name": "Terminus"
+       }
+    },
+
+    { 
+        "keys": ["j", "k"], "command": "terminus_close", 
+        "context": [{ "key": "terminus_view"}]
+    },
+
+    {
+        "keys": ["ctrl+alt+m"], "command": "toggle_menu"
+    },
+    { "keys": ["j", "k"], "command": "exit_insert_mode",
+            "context":
+            [
+                { "key": "setting.command_mode", "operand": false },
+                { "key": "setting.is_widget", "operand": false }
+            ]
+        }
+]
+
+// terminus cp
+[
+   {
+        "caption": "Terminal (panel)",
+        "command": "terminus_open",
+        "args"   : {
+           "cmd": "cmd.exe",
+           "cwd": "${file_path:${folder}}",
+           "title": "Command Prompt",
+           "panel_name": "Terminus"
+        }
+   },
+]  
+
+// terminus key bindings
+[
+   {
+       "keys": ["alt+t"],
+       "command": "terminus_open",
+       "args" : {
+           "cmd": "cmd.exe",
+           "cwd": "${file_path:${folder}}",
+           "panel_name": "Terminus"
+       }
+    },
+
+    { 
+        "keys": ["j", "k"], "command": "terminus_close", 
+        "context": [{ "key": "terminus_view"}]
+    },
+
+    {
+        "keys": ["ctrl+alt+m"], "command": "toggle_menu"
+    },
+    { "keys": ["j", "k"], "command": "exit_insert_mode",
+            "context":
+            [
+                { "key": "setting.command_mode", "operand": false },
+                { "key": "setting.is_widget", "operand": false }
+            ]
+        }
+]
+
+// python2.7.sublime-build
+{
+  "target": "terminus_exec",
+  "cancel": "terminus_cancel_build",
+
+  "focus": true,
+
+  "shell_cmd": "python -u \"$file\"",
+  "env": {
+  "PATH": "$PATH;C:\\Python27"
+  }
+
+}

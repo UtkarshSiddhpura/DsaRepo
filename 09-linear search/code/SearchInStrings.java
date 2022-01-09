@@ -16,7 +16,7 @@ public class SearchInStrings {
         if (str.length() == 0) {
             return false;
         }
-
+        // for each loop want array type datatype
         for(char ch : str.toCharArray()) {
             if (ch == target) {
                 return true;

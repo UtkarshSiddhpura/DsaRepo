@@ -1,0 +1,358 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inte",
+				"Integer"
+			],
+			[
+				"Arr",
+				"ArrayList"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"Array",
+				"ArrayList"
+			],
+			[
+				"i",
+				"int"
+			],
+			[
+				"arr",
+				"arr"
+			],
+			[
+				"pa",
+				"package"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"fac",
+				"factorial"
+			],
+			[
+				"p",
+				"pl\tprintln"
+			],
+			[
+				"imp",
+				"import"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"stri",
+				"String"
+			],
+			[
+				"Test",
+				"Test1"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
+				"fr",
+				"fore\tfor (each)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Utkarsh/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/Utkarsh/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/D/DsaRepo/01-git/Git__GitHub_102_modified.pdf",
+		"/C/Users/Utkarsh/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Utkarsh/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Utkarsh/Desktop/Test.java",
+		"/D/DsaRepo/14-recursion/code/easy/Palindrome.java",
+		"/D/DsaRepo/12-strings/code/SB.java",
+		"/D/DsaRepo/12-strings/code/PrettyPrinting.java",
+		"/D/DsaRepo/12-strings/code/Main.java",
+		"/D/DsaRepo/12-strings/code/Methods.java",
+		"/D/DsaRepo/16-math/maths/NewtonSQRT.java",
+		"/D/DsaRepo/16-math/maths/Factors.java",
+		"/D/DsaRepo/16-math/maths/GCD_LCM.java",
+		"/D/DsaRepo/16-math/maths/BinarySearchSQRT.java",
+		"/D/DsaRepo/16-math/bitwise/SetBits.java",
+		"/D/DsaRepo/16-math/bitwise/Power.java",
+		"/D/DsaRepo/16-math/bitwise/MagicNumber.java",
+		"/D/DsaRepo/16-math/bitwise/PowOfTwo.java",
+		"/D/DsaRepo/14-recursion/code/intro/BS.java",
+		"/D/DsaRepo/11-sorting/code/Main.java",
+		"/D/DsaRepo/11-sorting/code/CyclicSort.java",
+		"/D/DsaRepo/10-binary search/code/SortedMatrix.java",
+		"/D/DsaRepo/10-binary search/code/SplitArray.java",
+		"/D/DsaRepo/10-binary search/code/RBS.java",
+		"/D/DsaRepo/10-binary search/code/Ceiling.java",
+		"/D/DsaRepo/10-binary search/code/SmallestLetter.java",
+		"/D/DsaRepo/10-binary search/code/OrderAgnosticBS.java",
+		"/D/DsaRepo/10-binary search/code/1OrderAgnosticBS.java",
+		"/D/DsaRepo/10-binary search/code/1BinarySearch.java",
+		"/D/DsaRepo/10-binary search/Handwritten notes on Binary Search.pdf",
+		"/D/DsaRepo/09-linear search/code/SearchInStrings.java",
+		"/D/DsaRepo/09-linear search/code/SearchIn2DArray.java",
+		"/D/DsaRepo/09-linear search/code/Main.java",
+		"/D/DsaRepo/06-conditions-loops/code/Switch.java",
+		"/D/DsaRepo/07-methods/code/VarArgs.java",
+		"/D/DsaRepo/08-arrays/ArrayListExample.java",
+		"/D/DsaRepo/08-arrays/MultiAL.java",
+		"/D/DsaRepo/06-conditions-loops/code/Calculator.java",
+		"/C/Users/Utkarsh/Desktop/LL.java",
+		"/C/Users/Utkarsh/Desktop/Test1.java",
+		"/D/DsaRepo/14-recursion/code/backtracking/Maze.java",
+		"/D/DsaRepo/17-oop/code/src/com/kunal/enumExamples/Basic.java",
+		"/C/Users/Utkarsh/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/D/DsaRepo/17-oop/notes/interface.txt",
+		"/D/DsaRepo/17-oop/notes/constructors_this_finalize.txt",
+		"/D/DsaRepo/17-oop/code/src/com/kunal/packages/a/Greeting.java",
+		"/D/DsaRepo/17-oop/code/code.iml",
+		"/D/DsaRepo/17-oop/code/src/com/kunal/access/Main.java",
+		"/D/DsaRepo/17-oop/code/src/com/kunal/exceptionHandling/Main.java",
+		"/D/DsaRepo/17-oop/code/src/com/kunal/cloning/Main.java",
+		"/D/DsaRepo/16-math/bitwise/RangeXOR.java",
+		"/D/DsaRepo/10-binary search/13-patterns/code/src/com/kunal/Patterns.java",
+		"/D/DsaRepo/10-binary search/13-patterns/code/src/com/kunal/Main.java",
+		"/D/DsaRepo/15-complexity/code/src/com/kunal/Fibo.java",
+		"/D/DsaRepo/08-arrays/MaxAndReverse.java",
+		"/D/DsaRepo/08-arrays/MultiDimension.java",
+		"/D/DsaRepo/08-arrays/Input.java",
+		"/D/DsaRepo/07-methods/code/Overloading.java",
+		"/D/DsaRepo/07-methods/code/Scope.java",
+		"/D/DsaRepo/07-methods/code/Shadowing.java",
+		"/D/DSA-Bootcamp-Java/assignments/01-flow-of-program.md",
+		"/D/DSA-Bootcamp-Java/SYLLABUS.md",
+		"/D/DsaRepo/.git/MERGE_MSG",
+		"/D/DSA-Bootcamp-Java-main/lectures/07-methods/code/Armstrong.java",
+		"/C/Users/Utkarsh/Desktop/Repo/Readme.md",
+		"/D/DSA-Bootcamp-Java-main/lectures/07-methods/code/Swap.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/06-conditions-loops/code/CountNums.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/06-conditions-loops/code/Switch.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/06-conditions-loops/Switch.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/06-conditions-loops/code/Largest.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/06-conditions-loops/code/CaseCheck.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/06-conditions-loops/code/Loops.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/06-conditions-loops/code/Conditionals.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/06-conditions-loops/code/Calculator.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/05-first-java-program/Main.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/05-first-java-program/first-tutorial/Main.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/05-first-java-program/first-idea-program/src/com/kunal/TypeCasting.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/05-first-java-program/first-idea-program/src/com/kunal/Main.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/05-first-java-program/first-idea-program/src/com/kunal/Prime.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/05-first-java-program/first-idea-program/src/com/kunal/Sum.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/05-first-java-program/first-idea-program/src/com/kunal/Temperature.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/05-first-java-program/first-idea-program/first-idea-program.iml",
+		"/D/DSA-Bootcamp-Java-main/lectures/05-first-java-program/first-idea-program/src/com/kunal/Inputs.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/11-sorting/code/src/com/kunal/Main.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/16-math/code/src/com/kunal/maths/GCD_LCM.java",
+		"/D/DSA-Bootcamp-Java-main/lectures/14-recursion/kunal/intro/BS.java",
+		"/C/Program Files/Sublime Text 3/Packages/Java_Input.sublime-build",
+		"/C/Users/Utkarsh/AppData/Local/Temp/Rar$DIa3744.13658/JavaC.sublime-build",
+		"/C/Users/Utkarsh/Desktop/javacexec.bat"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "Main.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pal",
+				"14-recursion\\code\\easy\\Palindrome.java"
+			],
+			[
+				"greti",
+				"17-oop\\code\\src\\com\\kunal\\packages\\a\\Greeting.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

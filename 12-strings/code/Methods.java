@@ -1,5 +1,3 @@
-package com.kunal;
-
 import java.util.Arrays;
 
 public class Methods {
@@ -10,6 +8,7 @@ public class Methods {
         System.out.println(name);
         System.out.println(name.indexOf('a'));
         System.out.println("     Kunal   ".strip());
+        System.out.println("     Kunal   ".trim());
         System.out.println(Arrays.toString(name.split(" ")));
     }
 }

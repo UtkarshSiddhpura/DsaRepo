@@ -1,11 +1,9 @@
-package com.kunal.maths;
-
 public class GCD_LCM {
     public static void main(String[] args) {
 //        System.out.println(gcd(4, 9));
-        System.out.println(lcm(2, 7));
+        System.out.println(lcm(7, 2));
     }
-
+    // gcd (a,b) = gcd(b%a,a)
     static int gcd(int a, int b) {
         if (a == 0) {
             return b;

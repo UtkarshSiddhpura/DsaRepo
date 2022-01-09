@@ -1,11 +1,9 @@
-package com.kunal.maths;
-
 public class BinarySearchSQRT {
     public static void main(String[] args) {
-        int n = 40;
-        int p = 3;
+        int n = 37;
+        int p = 4;
 
-        System.out.printf("%.3f", sqrt(n, p));
+        System.out.print(/*"%.3f",*/ sqrt(n, p));
     }
 
     // Time: O(log(n))
@@ -26,12 +24,17 @@ public class BinarySearchSQRT {
                 e = m - 1;
             } else {
                 s = m + 1;
-                root = m;
+                root = m;//we want 36
             }
         }
+        System.out.println(s+ " " +e);
         double incr = 0.1;
+        //run p times
         for (int i = 0; i < p; i++) {
             while (root * root <= n) {
+                // if(root * root == n){
+                //     return root;
+                // }
                 root += incr;
             }
             root -= incr;

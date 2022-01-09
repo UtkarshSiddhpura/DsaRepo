@@ -1,8 +1,6 @@
-package com.kunal.bitwise;
-
 public class SetBits {
     public static void main(String[] args) {
-        int n = 234567;
+        int n = 2;
         System.out.println(Integer.toBinaryString(n));
 
         System.out.println(setBits(n));
@@ -22,5 +20,12 @@ public class SetBits {
         }
 
         return count;
+    }
+    //set ith bit to one 
+    static void setTo1(int num , int n){
+        int ans = (int)(Math.log(num) / Math.log(2)) + 1;
+        System.out.println(ans);
+        int mask = 1<<(ans-n);
+        System.out.println(mask|num);
     }
 }

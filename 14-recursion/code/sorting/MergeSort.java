@@ -1,5 +1,3 @@
-package com.kunal.sorting;
-
 import java.util.Arrays;
 
 public class MergeSort {
@@ -92,6 +90,7 @@ public class MergeSort {
 
         // it may be possible that one of the arrays is not complete
         // copy the remaining elements
+            
         while (i < m) {
             mix[k] = arr[i];
             i++;

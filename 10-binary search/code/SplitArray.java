@@ -1,11 +1,12 @@
-package com.kunal;
+
 // https://leetcode.com/problems/split-array-largest-sum/
 public class SplitArray {
     public static void main(String[] args) {
-
+        int[] arr = {1, 0,1, 455};//18
+        System.out.println(splitArray(arr,2));
     }
 
-    public int splitArray(int[] nums, int m) {
+    public static int splitArray(int[] nums, int m) {
         int start = 0;
         int end = 0;
 

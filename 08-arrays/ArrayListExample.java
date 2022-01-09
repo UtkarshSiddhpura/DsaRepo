@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class ArrayListExample {
     public static void main(String[] args) {
@@ -14,23 +15,27 @@ public class ArrayListExample {
         //SET 0 index to 99
         list.set(0, 99); 
 //      index 2 will be removed
-        list.remove(2);
+//        list.remove(2);
 //
 //        System.out.println(list);
 
-        // input
-        for (int i = 0; i < 5; i++) {
-            list.add(in.nextInt());
-        }
 
         // get item at any index
-        for (int i = 0; i < 5; i++) {
-            System.out.println(list.get(i)); // pass index here, list[index] syntax will not work here
-        }
+        // for (int i = 0; i < 5; i++) {
+        //     System.out.println(list.get(i)); // pass index here, list[index] syntax will not work here
+        // }
+        // System.out.println(list);
 
-        System.out.println(list);
-
-
-
+        // to remove element from array 
+        // for (int i = 0; int j = 0; i<arr.length; i++){
+        //     if(i != valRemoveIndex){
+        //     copyArr[j++] = arr[i];
+        //     }
+        // }
+        // arr = ArrayUtils.remove(arr, index); requires apache commons library
+        int[] arr=  {4,34,4344,44,444};
+        int index = 0;
+        System.arraycopy(arr, index+1, arr, index, arr.length-index-1);
+        System.out.println(Arrays.toString(arr));
     }
 }

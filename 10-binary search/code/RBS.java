@@ -1,15 +1,17 @@
-package com.kunal;
+
 // https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/
 public class RBS {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,5,6};
+        int[] arr = {1};
         System.out.println(findPivotWithDuplicates(arr));
+        System.out.println(search(arr,1));
     }
 
     static int search(int[] nums, int target) {
         int pivot = findPivot(nums);
 
         // if you did not find a pivot, it means the array is not rotated
+        // also for arr.length 1, 2
         if (pivot == -1) {
             // just do normal binary search
             return binarySearch(nums, target, 0 , nums.length - 1);
@@ -47,6 +49,7 @@ public class RBS {
 
     // this will not work in duplicate values
     static int findPivot(int[] arr) {
+        // int[] arr = {2, 2, 2, 9, 2, 2} NOT WORK
         int start = 0;
         int end = arr.length - 1;
         while (start <= end) {
@@ -66,7 +69,7 @@ public class RBS {
         }
         return -1;
     }
-
+    //WHY?
     static int findPivotWithDuplicates(int[] arr) {
         int start = 0;
         int end = arr.length - 1;

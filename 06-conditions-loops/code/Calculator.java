@@ -1,4 +1,3 @@
-package com.kunal;
 
 import java.util.Scanner;
 
@@ -11,6 +10,7 @@ public class Calculator {
             // take the operator as input
             System.out.print("Enter the operator: ");
             char op = in.next().trim().charAt(0);
+            boolean check = true;
 
             if (op == '+' || op == '-' || op == '*' || op == '/' || op == '%') {
                 // input two numbers
@@ -30,6 +30,9 @@ public class Calculator {
                 if (op == '/') {
                     if (num2 != 0) {
                         ans = num1 / num2;
+                    }else{
+                        check = false;
+                        System.out.println("cannot divide by zero");
                     }
                 }
                 if (op == '%') {
@@ -40,7 +43,9 @@ public class Calculator {
             } else {
                 System.out.println("Invalid operation!!");
             }
-            System.out.println(ans);
+            if(check){
+                System.out.println(ans);
+            }   
         }
     }
 }
