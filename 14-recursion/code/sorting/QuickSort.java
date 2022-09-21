@@ -34,6 +34,7 @@ public class QuickSort {
                 nums[e] = temp;
                 s++;
                 e--;
+                //after this also s & e might change as above loops
             }
         }
 

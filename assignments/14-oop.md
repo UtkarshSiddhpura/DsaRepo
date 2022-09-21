@@ -1,5 +1,6 @@
 # Important Topics
 
+- [Kunal's notes](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/lectures/17-oop/notes)
 - [Object Oriented Paradigms](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/) `GFG`
 - [Constructors in Java](https://www.geeksforgeeks.org/constructors-in-java/) `GFG`
 - [Constructor chaining in Java](https://www.geeksforgeeks.org/constructor-chaining-java-examples/) `GFG`
@@ -28,3 +29,13 @@
 - [Private classes and singleton classes in Java](https://www.geeksforgeeks.org/private-constructors-and-singleton-classes-in-java/) `GFG`
 - [How to prevent Singleton Pattern from Reflection, Serialization and Cloning?](https://www.geeksforgeeks.org/prevent-singleton-pattern-reflection-serialization-cloning/) `GFG`
 - [Double-Check Locking For Singleton Class](https://www.geeksforgeeks.org/java-program-to-demonstrate-the-double-check-locking-for-singleton-class/) `GFG`
+
+# Practice Problems
+- [Inheritance I](https://www.hackerrank.com/challenges/java-inheritance-1/problem?isFullScreen=true) `HackerRank`
+- [Inheritance II](https://www.hackerrank.com/challenges/java-inheritance-2/problem?isFullScreen=true) `HackerRank`
+- [Java Abstract class](https://www.hackerrank.com/challenges/java-abstract-class/problem?isFullScreen=true) `HackerRank`
+- [Interface](https://www.hackerrank.com/challenges/java-interface/problem?isFullScreen=true) `HackerRank`
+- [Method Overriding I](https://www.hackerrank.com/challenges/java-method-overriding/problem?isFullScreen=true) `HackerRank`
+- [Method Overriding II (Use super keyword)](https://www.hackerrank.com/challenges/java-method-overriding-2-super-keyword/problem?isFullScreen=true) `HackerRank`
+- [Java instanceof keyword](https://www.hackerrank.com/challenges/java-instanceof-keyword/problem?isFullScreen=true) `HackerRank`
+- [Java Iterator](https://www.hackerrank.com/challenges/java-iterator/problem?isFullScreen=true) `HackerRank`

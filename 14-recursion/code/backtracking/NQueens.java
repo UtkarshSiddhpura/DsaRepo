@@ -1,8 +1,7 @@
-package com.kunal.backtracking;
 
 public class NQueens {
     public static void main(String[] args) {
-        int n = 4;
+        int n = 6;
         boolean[][] board = new boolean[n][n];
         System.out.println(queens(board, 0));
     }
@@ -37,7 +36,7 @@ public class NQueens {
             }
         }
 
-        // diagonal left
+        // diagonal left no of times iteration needed
         int maxLeft = Math.min(row, col);
         for (int i = 1; i <= maxLeft; i++) {
             if(board[row-i][col-i]) {

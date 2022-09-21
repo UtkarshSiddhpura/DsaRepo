@@ -1,4 +1,3 @@
-package com.kunal.backtracking;
 
 import java.util.Arrays;
 
@@ -10,6 +9,7 @@ public class AllPaths {
                 {true, true, true}
         };
         int[][] path = new int[board.length][board[0].length];
+        allPath("", board, 0, 0);
         allPathPrint("", board, 0, 0, path, 1);
     }
 

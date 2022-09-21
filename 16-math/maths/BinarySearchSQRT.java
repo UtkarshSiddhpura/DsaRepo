@@ -24,14 +24,14 @@ public class BinarySearchSQRT {
                 e = m - 1;
             } else {
                 s = m + 1;
-                root = m;//we want 36
+                root = m;//we want 36 further calculations
             }
         }
         System.out.println(s+ " " +e);
         double incr = 0.1;
         //run p times
         for (int i = 0; i < p; i++) {
-            while (root * root <= n) {
+            while (root * root <= n) {// <= is required so it runs for equal and then we can subtract it 
                 // if(root * root == n){
                 //     return root;
                 // }

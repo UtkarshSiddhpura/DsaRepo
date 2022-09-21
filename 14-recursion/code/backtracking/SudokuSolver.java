@@ -1,5 +1,3 @@
-package com.kunal.backtracking;
-
 public class SudokuSolver {
     public static void main(String[] args) {
         int[][] board = new int[][]{
@@ -15,7 +13,7 @@ public class SudokuSolver {
         };
 
         if (solve(board)) {
-            display(board);
+            displayBoard(board);
         } else {
             System.out.println("Cannot solve");
         }
@@ -39,7 +37,7 @@ public class SudokuSolver {
                     break;
                 }
             }
-            // if you found some empty element in row, then break
+            // if you found some empty element in any of the row, then break
             if (emptyLeft == false) {
                 break;
             }
@@ -66,13 +64,24 @@ public class SudokuSolver {
         return false;
     }
 
-    private static void display(int[][] board) {
-        for(int[] row : board) {
-            for(int num : row) {
-                System.out.print(num + " ");
+    static void displayBoard(int[][] arr){
+        for(int i = 0; i < arr.length; i++){
+
+            if(i % 3 == 0){
+                System.out.println("  ------   ------   ------");
             }
+
+            for(int j = 0; j < arr.length; j++){
+                if(j % 3 == 0){
+                    System.out.print(" | ");
+                }
+                System.out.print(arr[i][j] + " ");
+            }
+
+            System.out.println();
             System.out.println();
         }
+        System.out.println("  ------   ------   ------");
     }
 
 

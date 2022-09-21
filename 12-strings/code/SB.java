@@ -6,6 +6,7 @@ public class SB {
             builder.append(ch);
         }
         // 1 included 4 excluded
+        builder.deleteCharAt(0);
         builder.replace(1, 4, "efgh");
         System.out.println(builder.toString());
         builder.reverse();

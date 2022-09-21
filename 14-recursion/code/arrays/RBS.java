@@ -30,5 +30,33 @@ public class RBS {
 
         return search(arr, target, s, m-1);
     }
+    static int search2(int[] arr , int target){
+        int s = 0;
+        int e = arr.length-1;
 
+        int m;
+        while(s<e) {
+            m = (s + e)/2;
+
+            if(arr[m] == target){
+                return m;
+            }
+
+            if(arr[s] <=  arr[m]){
+                if(arr[s] <= target && arr[m] >= target){
+                    e = m-1;
+                }else{
+                    s = m+1;
+                }
+            }else{
+                if(arr[m] <= target && arr[e] >= target){
+                    s = m+1;
+                }else{
+                    e = m-1;
+                }
+            }
+
+        }
+        return -1;
+    }
 }

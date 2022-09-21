@@ -1,5 +1,3 @@
-package com.kunal.strings;
-
 import java.util.ArrayList;
 
 public class Dice {
@@ -13,7 +11,7 @@ public class Dice {
             System.out.println(p);
             return;
         }
-
+        // max dice can add up is 6 
         for (int i = 1; i <= 6 && i <= target; i++) {
             dice(p + i, target - i);
         }

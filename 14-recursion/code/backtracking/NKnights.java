@@ -1,15 +1,18 @@
-package com.kunal.backtracking;
 
 public class NKnights {
     public static void main(String[] args) {
-        int n = 4;
+        int n = 2;
         boolean[][] board = new boolean[n][n];
-        knight(board, 0, 0, 4);
+        knight(board, 0, 0, 1);
     }
 
+    static int count = 0;
+    //differnt from queens as col check needed and also no of knights placed needed in param
     static void knight(boolean[][] board, int row, int col, int knights) {
         if (knights == 0) {
             display(board);
+            count++;
+            System.out.println(count);
             System.out.println();
             return;
         }
@@ -18,6 +21,7 @@ public class NKnights {
             return;
         }
 
+        //jst create a call(session) for r+1 thn return;
         if (col == board.length) {
             knight(board, row + 1, 0, knights);
             return;
@@ -25,11 +29,12 @@ public class NKnights {
 
         if (isSafe(board, row, col)) {
             board[row][col] = true;
+            // for this fuction call f( , , , knights-> not knights-1 so not placed)
             knight(board, row, col + 1, knights - 1);
             board[row][col] = false;
         }
 
-        knight(board, row, col + 1, knights);
+        knight(board, row, col + 1, knights);//after backtrack on line 34, func_call for nxt col 
     }
 
     private static boolean isSafe(boolean[][] board, int row, int col) {

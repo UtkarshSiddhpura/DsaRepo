@@ -27,8 +27,11 @@
 - [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 - [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [Length of last word](https://leetcode.com/problems/length-of-last-word/)
 
-## Medium 
+## Medium
+
 - [Jump Game VII](https://leetcode.com/problems/jump-game-vii/)
 - [Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)
 - [Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/)
@@ -48,10 +51,8 @@
 - [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)
 - [Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)
 - [Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)
-- [Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
-
-## Hard 
+## Hard
 
 - [Valid Number](https://leetcode.com/problems/valid-number/)
 - [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)

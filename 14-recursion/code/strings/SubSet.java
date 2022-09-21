@@ -25,6 +25,20 @@ public class SubSet {
         }
         return outer;
     }
+    static void subset1(int[] arr, int i, ArrayList<Integer> ans){
+
+        if (i == arr.length) {
+            System.out.println(ans);
+            return;
+        }
+
+        ArrayList<Integer> store = new ArrayList<>();
+        store.addAll(ans);
+        store.add(arr[i]);
+        subset1(arr, i+1, ans);
+        subset1(arr, i+1, store);
+    }
+
 
     static List<List<Integer>> subsetDuplicate(int[] arr) {
         Arrays.sort(arr);
@@ -44,6 +58,28 @@ public class SubSet {
                 List<Integer> internal = new ArrayList<>(outer.get(j));
                 internal.add(arr[i]);
                 outer.add(internal);
+            }
+        }
+        return outer;
+    }
+    static List<List<Integer>> subsetDuplicate2(int[] arr){
+        Arrays.sort(arr);
+        List<List<Integer>> outer = new ArrayList<>();
+        outer.add(new ArrayList<>());
+        int s = 0;
+        int e = 0;
+
+        for (int p = 0; p < arr.length; p++) {
+            s = 0;
+            e = outer.size();
+            if(p > 0 && arr[p] == arr[p-1]){
+                s = e-1;
+            }
+
+            for (int i = s; i < e; i++ ) {
+                ArrayList<Integer> inner = new ArrayList<>(outer.get(i));
+                inner.add(arr[p]);
+                outer.add(inner);
             }
         }
         return outer;
