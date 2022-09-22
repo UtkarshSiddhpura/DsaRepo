@@ -1,5 +1,3 @@
-package com.kunal;
-
 import javax.swing.*;
 
 public class InterviewQuestions {

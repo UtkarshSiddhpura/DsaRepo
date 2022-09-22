@@ -1,7 +1,7 @@
-package com.kunal.packages.a;
+package packages.a;
         //To include all class files
-// import com.kunal.packages.b.*;
-import com.kunal.packages.b.Message;
+// import packages.b.*;
+import packages.b.Message;
 // Class included so u can create objs and use methods,variables.
 
         // Below one import inside methods and var in class,Use static or not-Depends

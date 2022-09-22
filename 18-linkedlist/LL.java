@@ -1,11 +1,12 @@
-// insertRecusion() 
-// duplicates() , removeDuplicates()
-// merge(): merge-two-sorted-lists
-// Cycle in LL 
-
 import java.util.HashSet;
 
+// ctrl k,2 | ctrl k,j
 public class LL {
+    public static void main(String[] args) {
+        LL list = new LL();
+        list.insertFirst(5);
+        list.display();
+    }
     private Node head;
     private Node tail;
     private int size;
@@ -86,6 +87,15 @@ public class LL {
         return node;
     }
 
+    public int deleteFirst() {
+        int val = head.value;
+        head = head.next;
+        if (head == null) {
+            tail = null;
+        }
+        size--;
+        return val;
+    }
 
     public int deleteLast() {
         if (size <= 1) {
@@ -135,16 +145,6 @@ public class LL {
         return node;
     }
 
-    public int deleteFirst() {
-        int val = head.value;
-        head = head.next;
-        if (head == null) {
-            tail = null;
-        }
-        size--;
-        return val;
-    }
-
     public void display() {
         Node temp = head;
         while (temp != null) {
@@ -154,22 +154,6 @@ public class LL {
         System.out.println("END");
     }
 
-    private class Node {
-        private int value;
-        private Node next;
-
-        public Node(int value) {
-            this.value = value;
-        }
-
-        public Node(int value, Node next) {
-            this.value = value;
-            this.next = next;
-        }
-    }
-
-    // Questions
-    // https://leetcode.com/problems/remove-duplicates-from-sorted-list
     public void duplicates() {
         Node node = head;
 
@@ -184,7 +168,7 @@ public class LL {
         tail = node;
         tail.next = null;
     }
-    // More Questions  
+
     public void removeDuplicates () {
         HashSet<Integer> hs = new HashSet<Integer>();
         Node node = this.head;
@@ -201,45 +185,41 @@ public class LL {
             }
         }
     }
-    // public void removeNthFromLast() {}
-    // public void sumLists() {}
-    // public void intersectingLists() {}
 
-    // https://leetcode.com/problems/merge-two-sorted-lists/submissions/
-    public static LL merge(LL first, LL second) {
-        Node f = first.head;
-        Node s = second.head;
+    public void reverse(Node node) {
+        if (node == tail) {
+            head = tail;
+            return;
+        }
+        reverse(node.next);
+        tail.next = node;
+        tail = node;
+        tail.next = null;
+    }
+    // In place reversal of linked list
+    // google, microsoft, apple, amazon: https://leetcode.com/problems/reverse-linked-list/
+    public void reverse() {
+        if (size < 2) {
+            return;
+        }
 
-        LL ans = new LL();
+        Node prev = null;
+        Node present = head;
+        Node next = present.next;
 
-        while (f != null && s != null) {
-            if (f.value < s.value) {
-                ans.insertLast(f.value);
-                f = f.next;
-            } else {
-                ans.insertLast(s.value);
-                s = s.next;
+        while (present != null) {
+            present.next = prev;
+            prev = present;
+            present = next;
+            if (next != null) {
+                next = next.next;
             }
         }
-
-        while (f != null) {
-            ans.insertLast(f.value);
-            f = f.next;
-        }
-
-        while (s != null) {
-            ans.insertLast(s.value);
-            s = s.next;
-        }
-
-        return ans;
+        head = prev;
     }
 
-    public void bubbleSort() {
-        bubbleSort(size - 1, 0);
-    }
-
-    private void bubbleSort(int row, int col) {
+    // bubbleSort(size - 1, 0);
+    public void bubbleSort(int row, int col) {
         if (row == 0) {
             return;
         }
@@ -272,45 +252,19 @@ public class LL {
             bubbleSort(row - 1, 0);
         }
     }
+}
 
-    // Recursion reverse
-    private void reverse(Node node) {
-        if (node == tail) {
-            head = tail;
-            return;
-        }
-        reverse(node.next);
-        tail.next = node;
-        tail = node;
-        tail.next = null;
+class Node {
+    int value;
+    Node next;
+
+    public Node(int value) {
+        this.value = value;
     }
 
-    // In place reversal of linked list
-    // google, microsoft, apple, amazon: https://leetcode.com/problems/reverse-linked-list/
-    public void reverse() {
-        if (size < 2) {
-            return;
-        }
-
-        Node prev = null;
-        Node present = head;
-        Node next = present.next;
-
-        while (present != null) {
-            present.next = prev;
-            prev = present;
-            present = next;
-            if (next != null) {
-                next = next.next;
-            }
-        }
-        head = prev;
-    }
-
-
-    public static void main(String[] args) {
-        LL list = new LL(new int[] {1, 1, 3, 2, 1, 2, 2, 3});
-        // list.removeDuplicates();
-        list.display();
+    public Node(int value, Node next) {
+        this.value = value;
+        this.next = next;
     }
 }
+

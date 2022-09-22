@@ -1,4 +1,4 @@
-package com.kunal.packages.b;
+package packages.b.Message;
 
 public class Message {
        public static void message1(){
