@@ -2,11 +2,6 @@ import java.util.HashSet;
 
 // ctrl k,2 | ctrl k,j
 public class LL {
-    public static void main(String[] args) {
-        LL list = new LL();
-        list.insertFirst(5);
-        list.display();
-    }
     private Node head;
     private Node tail;
     private int size;
@@ -251,6 +246,12 @@ public class LL {
         } else {
             bubbleSort(row - 1, 0);
         }
+    }
+    
+    public static void main(String[] args) {
+        LL list = new LL();
+        list.insertFirst(5);
+        list.display();
     }
 }
 

@@ -1,3 +1,13 @@
+/* 
+	Game: Console Tetris
+	Coded by: UtkarshSiddhpura
+	NOTE: Below game only works in "Turbo C" as it uses Header files 
+		  exclusive to Turbo C.
+			- You can use https://www.onlinegdb.com/ with TurboC compiler to test.
+			  (it might be laggy as it runs in browser)	
+	Move : 1, 2, 3 and 0. 
+	Exit : Hit Esc.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>

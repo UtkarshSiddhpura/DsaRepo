@@ -1,5 +1,3 @@
-package com.kunal;
-
 public class CircularQueue {
     protected int[] data;
     private static final int DEFAULT_SIZE = 10;
@@ -65,5 +63,9 @@ public class CircularQueue {
         } while (i != end);
         System.out.println("END");
     }
-
+    public static void main(String[] args) {
+        CircularQueue list = new CircularQueue();        
+        list.insert(1);
+        list.display();
+    }
 }

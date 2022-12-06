@@ -1,6 +1,3 @@
-// Always check about:
-// first element insertion / last element deletion  
-// When the front/rear == MAX-1
 #include <stdio.h>
 #define MAX 5
 
