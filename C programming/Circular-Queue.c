@@ -54,8 +54,7 @@ void insert() {
   } else if ((front == 0 && rear == MAX-1) || (front == rear+1)) {
     printf("\n OVERFLOW");
   } else {
-  	queue[++rear] = num;	
-  	rear = rear%MAX;	
+  	queue[++rear%MAX] = num;	
   	printf("\n front=%d rear=%d", front, rear);
   }
 }

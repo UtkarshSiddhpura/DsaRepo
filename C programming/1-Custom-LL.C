@@ -145,3 +145,33 @@ void freeMemory(struct node *head) {
 	-> Bcoz, original *head will change bcoz of "head = head->next" expression and we
 	   don't want that. 
 */
+/*
+void insert(int val, struct node * head) {
+    struct node * prev;
+    while(head != NULL && head->val <= val) { 
+        prev = head;
+        head = head->next;
+    }
+    struct node * node = (struct node *)malloc(sizeof(struct node));
+    node->val = val;
+    node->next = head;
+    prev->next = node;
+}
+
+void dis(struct node * head) {
+    while(head != NULL) {
+        printf("%d->", head->val);
+        head = head->next;
+    }
+    printf("End\n");
+}
+
+int main()
+{
+    struct node * head = (struct node *)malloc(sizeof(struct node));
+    head->val = 1;
+    insert(10, head);
+    dis(head);
+    return 0;
+}
+*/

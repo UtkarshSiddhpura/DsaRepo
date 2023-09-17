@@ -1,3 +1,4 @@
+// We don't talk Generic in C lol
 #include <stdio.h>
 #include <string.h>
 #define TYPE char

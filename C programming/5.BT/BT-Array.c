@@ -1,4 +1,5 @@
 // Binary Tree implementation in c using Arrays
+// Incomplete ....
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,7 +11,7 @@ struct tree {
 
 struct tree* initTree(int size) {
     struct tree* tree = malloc(sizeof(struct Tree*));
-    // [X, 1, 2, 3, 4, 5, 6, 7] -> first index arr not zeroth
+    // [X, 1, 2, 3, 4, 5, 6, 7] -> first index arr (not zeroth indexed)
     tree->arr = malloc((size+1)*sizeof(int));
     tree->end = 0;
     tree->size = size;
